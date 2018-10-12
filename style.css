@@ -1,9 +1,20 @@
+.calculator {
+   width: 400px;
+   margin: auto;
+   padding: 50px;
+   background: rgb(78, 78, 78);
+}
+
 .number-display {
     border: 1px solid;
     padding: 20px;
     width: 280px;
     text-align: right;
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(207, 207, 207);
 }
 
 ul.digits {
@@ -12,6 +23,9 @@ ul.digits {
     padding: 0;
     width: 280px;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: antiquewhite;
 }
 
 .digits li {
@@ -24,6 +38,7 @@ ul.digits {
     font-size: 20px;
     line-height: 72px;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul.operators {
@@ -31,7 +46,10 @@ ul.operators {
     margin: 0;
     padding: 0;
     width: 280px;
-    padding: 20px;			
+    padding: 20px;		
+    margin-left: auto;
+    margin-right: auto;	
+    color: aqua;
 }
 
 .operators li {
@@ -44,13 +62,18 @@ ul.operators {
     font-size: 20px;
     line-height: 50px;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }	
 
-.clear {
+.equals {
     width: 215px;
     border: 1px solid;
     padding: 24px;
     margin: 0 27px;
     text-align: center;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: aquamarine;
 }		

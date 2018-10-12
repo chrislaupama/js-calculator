@@ -34,6 +34,6 @@ $equals.on('click', function() {
 function handleOperator() {
     var theOperator = $(this).text();
     console.log('a ' + theOperator + ' operator was clicked');
-
-    equation += theOperator;			
+    $display.text(equation);
+    equation += theOperator;	
 }
