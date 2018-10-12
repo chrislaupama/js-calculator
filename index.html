@@ -6,41 +6,38 @@
     <title>JS Calculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="script.js"></script>
+
 </head>
 <body>
-    <div class="calculator">
-        <div class="row">
-            <input type="text" disabled="disabled" class="screen" id="answer"/>
-        </div>
-        <div class="row">
-            <button onclick="clear()">Clear</button>
-        </div>
-        <div class="row">
-            <button onclick="insert(7)">7</button>
-            <button onclick="insert(8)">8</button>
-            <button onclick="insert(9)">9</button>
-            <button onclick="insert(/)">÷</button>
-        </div>
-        <div class="row">
-            <button onclick="insert(4)">4</button>
-            <button onclick="insert(5)">5</button>
-            <button onclick="insert(6)">6</button>
-            <button onclick="insert(*)">X</button>   
-        </div>
-        <div class="row">
-            <button onclick="insert(1)">1</button>
-            <button onclick="insert(2)">2</button>
-            <button onclick="insert(3)">3</button>
-            <button onclick="insert(-)">-</button>   
-        </div>
-        <div class="row">
-            <button onclick="insert(0)">0</button>
-            <button onclick="insert(.)">.</button>
-            <button onclick="equals()">=</button>
-            <button onclick="insert(+)">+</button>   
-        </div>
-    </div>
-  
-  </body>
+	<div class="calculator">
+		<div class="number-display">0</div>
+		<ul class="digits">
+			<li class="equals">=</li>
+			<li class="decimal">.</li>
+			<li class="digit">0</li>
+			<li class="digit">1</li>
+			<li class="digit">2</li>
+			<li class="digit">3</li>
+			<li class="digit">4</li>
+			<li class="digit">5</li>
+			<li class="digit">6</li>
+			<li class="digit">7</li>
+			<li class="digit">8</li>
+			<li class="digit">9</li>
+		</ul>
+
+		<ul class="operators">
+			<li class="operator">+</li>
+			<li class="operator">-</li>
+			<li class="operator">*</li>
+			<li class="operator">/</li>
+		</ul>
+
+		<div class="clear">Clear</div>
+
+	</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
   </html>
